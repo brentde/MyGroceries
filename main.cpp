@@ -30,7 +30,7 @@ int main()
     cout << "There are no items on the list." << endl;
   } else {
     for(int i = 0; i < list.size(); i++){
-      cout << i << ") " << list[i] << endl;
+      cout << i + 1 << ") " << list[i] << endl;
     };
   };
     
